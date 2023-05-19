@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './page/Home';
-import HeaderNav from './features/hearderNav/HeaderNav';
+import HeaderNav from './features/headerNav/HeaderNav';
 import MyPage from './page/MyPage';
 import PerformList from './page/PerformList';
 import LoginForm from './features/Login/LoginForm';

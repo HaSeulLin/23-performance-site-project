@@ -1,0 +1,20 @@
+$main-color : rgb(35, 35, 35);
+$shadow-color : rgba(35,35,35,0.6);
+$main-boxshadow : 1px 1px 5px $shadow-color;
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: $main-boxshadow;
+    background-color: white;
+}
+
+input {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: $main-boxshadow;
+    background-color: white;
+    outline: none;
+}

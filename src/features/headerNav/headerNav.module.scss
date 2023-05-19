@@ -1,0 +1,9 @@
+$main-color : rgb(35, 35, 35);
+$main-boxshadow : 1px 1px 5px $main-color;
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: $main-boxshadow;
+}
